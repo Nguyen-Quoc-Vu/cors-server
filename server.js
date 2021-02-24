@@ -10,6 +10,7 @@ corsProxy
     originWhitelist: [
       "http://localhost:3000",
       "http://haniextidus.herokuapp.com/",
+      "https://self-stock-management-ssm.vercel.app/",
     ],
     requireHeader: ["origin", "x-requested-with"],
     removeHeaders: ["cookie", "cookie2"],

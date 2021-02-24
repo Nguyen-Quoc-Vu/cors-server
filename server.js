@@ -7,11 +7,7 @@ const port = process.env.PORT || 8080;
 
 corsProxy
   .createServer({
-    originWhitelist: [
-      "http://localhost:3000",
-      "http://haniextidus.herokuapp.com/",
-      "https://self-stock-management-ssm.vercel.app/",
-    ],
+    originWhitelist: [],
     requireHeader: ["origin", "x-requested-with"],
     removeHeaders: ["cookie", "cookie2"],
   })
